@@ -29,7 +29,16 @@ h3 {
   margin-right: 40px;
 }
 hr {
-  border: dotted #eaf6f6 10;
+  border: dotted #c2c7c7 12px;
+  border-bottom: none;
+  margin: 50px auto;
+  width: 4%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e76f51;
 }
 .btn {
   color: #d5ed9f;
@@ -84,6 +93,9 @@ hr {
 }
 .middle-container {
   margin: 100px 0 100px 0;
+}
+.copyright {
+  font-size: 0.8rem;
 }
 #downcloud {
   position: absolute;
